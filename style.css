@@ -1,0 +1,154 @@
+body{
+    font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif";
+}
+
+/*ヘッダーに関して*/
+li{
+    list-style: none;
+    float: left;
+    padding:10px 15px;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position:fixed;
+    top:0;
+    z-index: 10;
+
+}
+.header-logo{
+    float:left;
+    padding: 10px 30px;
+    
+}
+.header-list{
+    float:right;
+    padding-right: 30px;
+    
+}
+
+/*トップに関して*/
+.top{
+    text-align: center;
+    padding: 200px 50px 150px 50px;
+    height:100px;
+}
+
+/*メインに関して*/
+.main{
+    
+}
+
+/*サイトについて*/
+.site{
+    margin: 0 auto;
+    padding: 50px;
+    width:750px;
+    height:100px;
+}
+.site-text{
+    text-align: center;
+}
+
+/*プロフィールについて*/
+.profile{
+    width:750px;
+    height: 400px;
+    margin:0 auto;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+}
+.name{
+    font-size: 18px;
+}
+.birthday{
+    font-size: 13px;
+    
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 300px;
+}
+.img{
+    
+}
+.profile-main{
+    float: right;
+    padding: 5px ;
+}
+.profile-title{
+    width:400px;
+    padding: 5px 10px;
+}
+.profile-text{
+    width:500px;
+    padding: 5px 10px;
+}
+.text{
+    font-size: 15px;
+}
+
+/*スキルに関して*/
+.skil{
+    margin:0 auto;
+    width:850px;
+    height:1200px;
+    padding: 30px;
+}
+.soft{
+    width:850px;
+    height:20px;
+}
+
+.softtitle{
+    width:200px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.soft1{
+    font-size: 15px;
+    height:150px;
+    width: 380px;
+    float:left;
+}
+.soft2{
+    font-size: 15px;
+    height:150px;
+    width: 380px;
+    float:right;
+}
+.softtitle2{
+    font-size: 17px;
+    margin:20px 5px 1px 5px;
+}
+.soft hr{
+    height:1px;
+    right:350px;
+    background-color: black;
+}
+.softtext{
+    font-size: 15px;
+    float: left;
+    width:350px;
+    height:100px;
+    margin-top: 10px;
+}
+/*フッターに関して*/
+.footer{
+    height: 30px;
+    width: 100%;
+}
+.copyright{
+    font-size: 12px;
+    margin-left: 30px;
+}
