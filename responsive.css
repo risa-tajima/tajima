@@ -1,8 +1,47 @@
+*{
+    box-sizing:border-box;
+  }
+  .clear{
+    clear: left;
+  }
+
 /*1000px以下の時に適応したいCSS*/
 @media(max-width:1000px){
-
+    .soft1{
+        width: 100%;
+    }
+    .soft2{
+        width: 100%;
+    }
+    .photo{
+        width: 100%
+    }
+    .profile-main{
+        width: 100%;
+    }
 }
+
 /*670px以下の時に適応したいCSS*/
 @media(max-width:670px){
-    
+    .soft1{
+        width: 100%;
+    }
+    .soft2{
+        width: 100%
+    }
+    .photo{
+        width: 100%
+    }
+    .profile-main{
+        width: 100%;
+    }
+    footer{
+        text-align: center;
+    }
+    .header-right{
+        display: none;
+      }
+      .menu-icon{
+        display: block;
+      }
 }
