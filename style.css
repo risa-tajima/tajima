@@ -3,14 +3,14 @@ body{
 }
 
 /*ヘッダーに関して*/
-li{
+.header-list li{
     list-style: none;
     float: left;
     padding:10px 15px;
 }
 
 .header{
-    height: 60px;
+   
     width: 100%;
     background-color: white;
     position:fixed;
@@ -35,17 +35,17 @@ li{
     padding: 21px 0;
     display: none;
   }
-  
+
 /*トップに関して*/
 .top{
     text-align: center;
-    padding: 200px 50px 150px 50px;
-    height:100px;
+    padding: 150px 50px 50px 50px;
+    
 }
 
 /*メインに関して*/
 .main{
-    
+    width: 100%;
 }
 .space{
     width:100%;
@@ -60,10 +60,13 @@ li{
 .site-text{
     text-align: center;
 }
-
+.text1{
+    font-size: 15px;
+    text-align: center;
+}
 /*プロフィールについて*/
 .profile{
-    width:50%;
+    width:65%;
     margin:0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -72,22 +75,13 @@ li{
 h1{
     text-align: center;
 }
-.name{
-    font-size: 18px;
-    padding: 10px 10px;
-}
-.birthday{
-    font-size: 13px;
-    padding: 10px 10px;
-    
-}
 
 .photo{
     display: flex;
     align-items: center;
     float: left;
-    height: 300px;
-    width: 25%;
+    width: 20%;
+    padding-top:30px;
 }
 
 .profile-main{
@@ -96,14 +90,17 @@ h1{
     width:75%;
     max-width: 1170px;
 }
-.profile-title{
-    width:100%;
-    padding: 5px 10px;
-}
 .profile-text{
     width:100%;
-    padding: 10px 20px;
+    padding: 5px 60px;
     font-size:17px;
+    
+}
+.name{
+    font-size: 18px;
+}
+.birthday{
+    font-size: 13px;
 }
 .text{
     font-size: 15px;
@@ -112,7 +109,7 @@ h1{
 /*スキルに関して*/
 .skil{
     margin:0 auto;
-    width:60%;
+    width:70%;
     padding-top: 100px;
     max-width: 1170px;
 }
@@ -122,8 +119,7 @@ h1{
 }
 
 .softtitle{
-    width:60%;
-    height:50px;
+    width:100%;
     display: flex;
     align-items: center;
     font-size: 17px;
@@ -132,19 +128,17 @@ h1{
 }
 .soft1{
     font-size: 15px;
-    height:150px;
     width: 45%;
     float:left;
 }
 .soft2{
     font-size: 15px;
-    height:150px;
     width: 45%;
     float:right;
 }
 .softtitle2{
     font-size: 17px;
-    margin:20px 5px 1px 5px;
+    margin:20px 5px 10px 5px;
 }
 .soft hr{
     height:1px;
@@ -156,7 +150,16 @@ h1{
     float: left;
     width:100%;
     height:100px;
-    margin-top: 10px;
+    margin: 10px 5px 50px 5px;
+}
+
+/*ワークに関して*/
+.work{
+    margin:0 auto;
+    width:70%;
+    padding-top: 100px;
+    max-width: 1170px;
+}
 }
 /*フッターに関して*/
 .footer{
