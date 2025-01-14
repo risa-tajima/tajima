@@ -7,8 +7,13 @@ body{
     list-style: none;
     float: left;
     padding:10px 15px;
+    
 }
 
+.header-list a{
+    text-decoration: none;
+    color: inherit;
+}
 .header{
    
     width: 100%;
@@ -157,10 +162,10 @@ h1{
 .work{
     margin:0 auto;
     width:70%;
-    padding-top: 100px;
+    padding-top: 50px;
     max-width: 1170px;
 }
-}
+
 /*フッターに関して*/
 .footer{
     margin-top:20px;
