@@ -71,7 +71,7 @@ body{
 }
 /*プロフィールについて*/
 .profile{
-    width:65%;
+    width:55%;
     margin:0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -92,7 +92,7 @@ h1{
 .profile-main{
     float: right;
     padding: 5px ;
-    width:75%;
+    width:80%;
     max-width: 1170px;
 }
 .profile-text{
