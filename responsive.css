@@ -21,6 +21,8 @@
     }
 }
 
+
+
 /*670px以下の時に適応したいCSS*/
 @media(max-width:670px){
     .main{
@@ -52,8 +54,12 @@
     }
     .menu-icon{
         display: block;
+        font-size: 12px;
     }
     h1{
         font-size: 25px;
+    }
+    .work{
+        margin-top: 30px;
     }
 }
