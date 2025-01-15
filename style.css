@@ -2,44 +2,6 @@ body{
     font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif";
 }
 
-/*ヘッダーに関して*/
-.header-list li{
-    list-style: none;
-    float: left;
-    padding:5px 15px;
-    font-size: 15px;
-}
-
-.header-list a{
-    text-decoration: none;
-    color: inherit;
-}
-.header{
-   
-    width: 100%;
-    background-color: white;
-    position:fixed;
-    top:0;
-    z-index: 10;
-
-}
-.header-logo{
-    float:left;
-    padding: 2px 30px;
-    
-}
-.header-list{
-    float:right;
-    padding-right: 15px;
-    
-}
-.menu-icon {
-    color: black;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
-  }
 
 /*トップに関して*/
 .top{
@@ -136,10 +98,16 @@ h1{
     width: 45%;
     float:left;
 }
+.work1 img{
+    padding-left: 10px;
+}
 .soft2,.work2{
     font-size: 15px;
     width: 45%;
     float:right;
+}
+.work2 img{
+    padding-left: 10px;
 }
 .softtitle2,.worktitle2{
     font-size: 17px;
@@ -150,11 +118,18 @@ h1{
     right:45%;
     background-color: black;
 }
-.softtext,.worktext{
+.softtext{
     font-size: 15px;
     float: left;
     width:100%;
-    height:150px;
+    height:100px;
+    margin: 10px 5px 50px 5px;
+}
+.worktext{
+    font-size: 15px;
+    float: left;
+    width:100%;
+    height:100px;
     margin: 10px 5px 50px 5px;
 }
 
@@ -169,3 +144,126 @@ h1{
     font-size: 12px;
     margin-left: 30px;
 }
+
+/* ヘッダーに関して */
+header {
+    
+    background: #ffffff;
+    width:100%;
+    position:fixed;
+    top:0;
+    z-index: 10;
+    
+    
+  }
+  .main-menu {
+    display: flex;
+    width: 100%;
+    height: 60px;
+  }
+  .logo {
+    padding: 1px 10px;
+    background: #ffffff;
+
+    float: left;
+  }
+  .pc-menu {
+    
+    float: right;
+    width:100%;  
+    
+  }
+  .pc-menu  ul {
+    display: flex;
+    list-style: none;
+    
+  }
+  .pc-menu > ul > li {
+    width:20%;
+    font-size: 16px;
+    padding-top:10px;
+    padding-left: 50px;
+  }
+  .pc-menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+  }
+  .pc-menu > ul > li > a:hover {
+    background: #ffffff;
+  }
+  .sp-menu__box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background:#3584bb;
+  }
+  .sp-menu__box span,
+  .sp-menu__box span:before,
+  .sp-menu__box span:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background: #ffffff;
+    position: absolute;
+  }
+  .sp-menu__box span:before {
+    bottom: 8px;
+  }
+  .sp-menu__box span:after {
+    top: 8px;
+  }
+  #sp-menu__check {
+    display: none;
+  }
+  #sp-menu__check:checked ~ .sp-menu__box span {
+    background: rgba(255, 255, 255, 0);
+  }
+  #sp-menu__check:checked ~ .sp-menu__box span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  #sp-menu__check:checked ~ .sp-menu__box span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  #sp-menu__check:checked ~ .sp-menu__content {
+    left: 0;
+  }
+  .sp-menu__content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 80;
+    background-color: #3584bb;
+    transition: all 0.5s;
+  }
+  .sp-menu__list {
+    padding: 70px 10px 0;
+  }
+  .sp-menu__item {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+  }
+  .sp-menu__link {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+  }
+  
+
+  
