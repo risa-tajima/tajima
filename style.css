@@ -98,16 +98,16 @@ h1{
     width: 45%;
     float:left;
 }
-.work1 img{
-    padding-left: 10px;
-}
+
 .soft2,.work2{
     font-size: 15px;
     width: 45%;
     float:right;
 }
-.work2 img{
-    padding-left: 10px;
+.workimg{
+  display: flex;
+  margin: 0 auto;
+ 
 }
 .softtitle2,.worktitle2,.workpage-title{
     font-size: 17px;
