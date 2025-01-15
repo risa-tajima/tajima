@@ -105,6 +105,9 @@
     .photo img{
         margin: 0 auto;
     }
+    .pc-menu {
+      display: none;
+    }
 }
 /* 画面サイズが999px以下の時はPC用メニューは非表示 */
 @media screen and (max-width: 1000px) {
