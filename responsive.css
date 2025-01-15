@@ -25,6 +25,7 @@
     .header-logo img{
         width:90%;
         height:90%;
+        padding:5px 10px;
     }
     
     
@@ -37,9 +38,7 @@
     .main{
         width:100%;
     }
-    .header-list li{
-        font-size: 11px;
-    }
+    
     .soft1,.work1{
         width: 100%;
     }
@@ -70,16 +69,21 @@
     .header-logo img{
         width:70%;
         height:70%;
+        padding: 5px ;
     }
     .work1 img{
         width: 70%;
         height: 70%;
     }
     .work2 img{
-        width: 70%;
-        height: 70%;
+        width: 75%;
+        height: 75%;
     }
     .softtext,.worktext{
         height:210px;
+    }
+    .header-list li{
+        padding:8px;
+        font-size: 13px;
     }
 }
