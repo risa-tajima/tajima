@@ -25,12 +25,12 @@ body{
 }
 .header-logo{
     float:left;
-    padding: 10px 30px;
+    padding: 5px 30px;
     
 }
 .header-list{
     float:right;
-    padding-right: 30px;
+    padding-right: 15px;
     
 }
 .menu-icon {
@@ -71,7 +71,7 @@ body{
 }
 /*プロフィールについて*/
 .profile{
-    width:55%;
+    width:65%;
     margin:0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -92,7 +92,7 @@ h1{
 .profile-main{
     float: right;
     padding: 5px ;
-    width:80%;
+    width:75%;
     max-width: 1170px;
 }
 .profile-text{
@@ -128,7 +128,7 @@ h1{
     display: flex;
     align-items: center;
     font-size: 17px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 .soft1{
@@ -154,7 +154,7 @@ h1{
     font-size: 15px;
     float: left;
     width:100%;
-    height:100px;
+    height: 150px;
     margin: 10px 5px 50px 5px;
 }
 
@@ -165,7 +165,12 @@ h1{
     padding-top: 50px;
     max-width: 1170px;
 }
-
+.worktext{
+    font-size: 15px;
+    text-align: center;
+    width:100%;
+    margin: 50px 5px 100px 5px;
+}
 /*フッターに関して*/
 .footer{
     margin-top:20px;
