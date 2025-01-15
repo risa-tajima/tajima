@@ -93,10 +93,14 @@
         margin: 0 auto;
     }
     .softtext{
-        height: 250px;
+        height: 100px;
     }
+    .softtext2{
+        height: 210px;
+    }
+    
     .worktext{
-        height:50px;
+        height:100px;
     }
     .header-list li{
         padding:8px;
@@ -106,8 +110,8 @@
         margin: 0 auto;
     }
     .pc-menu {
-      display: none;
-    }
+        display: none;
+      }
 }
 /* 画面サイズが999px以下の時はPC用メニューは非表示 */
 @media screen and (max-width: 1000px) {
@@ -116,7 +120,7 @@
     }
   }
   /* 画面サイズが1000px以上の時はスマホ用メニューは非表示 */
-  @media screen and (min-width: 999px) {
+@media screen and (min-width: 999px) {
     .sp-menu {
       display: none;
     }
