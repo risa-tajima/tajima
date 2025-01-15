@@ -109,7 +109,7 @@ h1{
 .work2 img{
     padding-left: 10px;
 }
-.softtitle2,.worktitle2{
+.softtitle2,.worktitle2,.workpage-title{
     font-size: 17px;
     margin:20px 5px 10px 5px;
 }
@@ -118,7 +118,7 @@ h1{
     right:45%;
     background-color: black;
 }
-.softtext{
+.softtext,.softtext2{
     font-size: 15px;
     float: left;
     width:100%;
@@ -164,7 +164,6 @@ header {
   .logo {
     padding: 1px 10px;
     background: #ffffff;
-
     float: left;
   }
   .pc-menu {
@@ -265,5 +264,14 @@ header {
     padding: 9px 15px 10px 0;
   }
   
+  /*ワーク詳細ページに関して*/
+  .workpage{
+    margin: 0 auto;
+    width:700px;
+  }
 
-  
+  .workpage1 img{
+    text-align: center;
+   
+  }
+ 
