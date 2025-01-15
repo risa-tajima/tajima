@@ -8,21 +8,61 @@
         <link rel="stylesheet" href="responsive.css">
     </head>
     <body>
-        <div class="header">
-            <div class="header-logo">
-                <img src="./sozai/logo.jpg" alt="ロゴ">
-            </div>  
-            <div class="header-list">
+        <header>
+            <div class="main-menu">
+              <div class="logo">
+                <p><img src="./sozai/logo.jpg" alt="ロゴ"></p>
+              </div>
+              <div class="pc-menu">
                 <ul>
-                    <li><a href="#topsaite">トップ</a></li>
-                    <li><a href="#abutosaite">サイトについて</a></li>
-                    <li><a href="#aboutme">プロフィール</a></li>
-                    <li><a href="#skil">ポートフォリオ</a></li>
-                    <li><a href="#contact">連絡先</a></li>
+                  <li>
+                    <a href="#topsaite">トップ</a>
+                  </li>
+                  <li>
+                    <a href="#abutosaite">サイトについて</a>
+                  </li>
+                  <li>
+                    <a href="#aboutme">プロフィール</a>
+                  </li>
+                  <li>
+                    <a href="#skil">ポートフォリオ</a>
+                  </li>
+                  <li>
+                    <a href="#contact">連絡先</a>
+                  </li>
                 </ul>
+              </div>
+              <div class="sp-menu">
+                <input type="checkbox" id="sp-menu__check">
+                <label for="sp-menu__check" class="sp-menu__box">
+                  <span></span>
+                </label>
+                <div class="sp-menu__content">
+                    
+                      <ul class="sp-menu__list">
+                        <li class="sp-menu__item">
+                         <a class="sp-menu__link" href="#topsaite">トップ</a>
+                        </li>
+                        <li class="sp-menu__item">
+                        <a class="sp-menu__link" href="#abutosaite">サイトについて</a>
+                        </li>
+                        <li class="sp-menu__item">
+                        <a class="sp-menu__link" href="#aboutme">プロフィール</a>
+                        </li>
+                        <li class="sp-menu__item">
+                         <a class="sp-menu__link" href="#skil">ポートフォリオ</a>
+                        </li>
+                        <li class="sp-menu__item">
+                            <a class="sp-menu__link" href="#contact">連絡先</a>
+                        </li>
+                      </ul>
+                    
+                    
+                </div>
+              </div>
             </div>
-            <div class="clear"></div> 
-        </div>
+          </header>
+       
         <div class="space" id="topsaite"></div>
         <div class="top">
             <img src="./sozai/top-logo.jpg" alt="tajima's portforio" >    
@@ -212,7 +252,7 @@
         </div>
 
         <div class="footer">
-            <p class="copyright"></p>
+            <p class="copyright">@2025 RisaTajima</p>
         </div>
         <div class="clear"></div> 
 
