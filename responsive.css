@@ -38,7 +38,7 @@
         width:100%;
     }
     .header-list li{
-        font-size: 10px;
+        font-size: 11px;
     }
     .soft1,.work1{
         width: 100%;
@@ -71,8 +71,15 @@
         width:70%;
         height:70%;
     }
-    .work1,.work2 img{
+    .work1 img{
         width: 70%;
         height: 70%;
+    }
+    .work2 img{
+        width: 70%;
+        height: 70%;
+    }
+    .softtext,.worktext{
+        height:210px;
     }
 }
