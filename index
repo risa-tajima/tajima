@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tajima's Portforio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+        <header>
+            <div class="main-menu">
+              <div class="logo">
+                <p><img src="./sozai/logo.jpg" alt="ロゴ"></p>
+              </div>
+              <div class="pc-menu">
+                <ul>
+                  <li>
+                    <a href="#topsaite">トップ</a>
+                  </li>
+                  <li>
+                    <a href="#abutosaite">サイトについて</a>
+                  </li>
+                  <li>
+                    <a href="#aboutme">プロフィール</a>
+                  </li>
+                  <li>
+                    <a href="#skil">ポートフォリオ</a>
+                  </li>
+                  <li>
+                    <a href="#contact">連絡先</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="sp-menu">
+                <input type="checkbox" id="sp-menu__check">
+                <label for="sp-menu__check" class="sp-menu__box">
+                  <span></span>
+                </label>
+                <div class="sp-menu__content">
+                    
+                      <ul class="sp-menu__list">
+                        <li class="sp-menu__item">
+                         <a class="sp-menu__link" href="#topsaite">トップ</a>
+                        </li>
+                        <li class="sp-menu__item">
+                        <a class="sp-menu__link" href="#abutosaite">サイトについて</a>
+                        </li>
+                        <li class="sp-menu__item">
+                        <a class="sp-menu__link" href="#aboutme">プロフィール</a>
+                        </li>
+                        <li class="sp-menu__item">
+                         <a class="sp-menu__link" href="#skil">ポートフォリオ</a>
+                        </li>
+                        <li class="sp-menu__item">
+                            <a class="sp-menu__link" href="#contact">連絡先</a>
+                        </li>
+                      </ul>
+                    
+                    
+                </div>
+              </div>
+            </div>
+          </header>
+       
+        <div class="space" id="topsaite"></div>
+        <div class="top">
+            <img src="./sozai/top-logo.jpg" alt="tajima's portforio" >    
+        </div>
+        
+        <div class="main">
+            <div class="space" id="abutosaite"></div>
+            <div class="profile">
+                <h1>About this site</h1>
+                <p class="text1">ここは、田嶋理沙のポートフォリオサイトです。<br>
+                手がけた制作物や身につけたスキル・自分自身についてまとめています。<br>
+                ごゆっくりご覧ください。    
+                </p>    
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+
+            <div class="space" id="aboutme"></div>
+            <div class="profile">
+                <h1>About me</h1>
+                <div class="photo">
+                    <img src="./sozai/photo.jpg" alt="似顔絵" >
+                </div>
+                
+                <div class="profile-main">
+                    <div class="profile-text"> 
+                        <p class="name">田嶋 理沙 / Risa Tajima<br></p>
+                        <p class="birthday">1989年7月12日（35歳）<br></p>  
+                        <p class="text">愛知県愛西市 出身<br>
+                        工業高校情報科にて、プログラミング・デザイン・Ofiice系と幅広く学び、大学では、メディアや芸術に関して学ぶ。<br>
+                        卒業後は、通信設備関連会社にて関連会社にて、CADオペレーターとして従事していたが、パニック障害を発症し退職。
+                        休養後は、ハンドメイド作家・パタンナーとして活動をしつつ、新聞販売店で配達員として従事。<br>  
+                        現在は、キャリアアップのため就労移行支援事業所に通い、就職活動を行う。
+                        </p>
+                        
+                    </div>  
+                    <div class="clear"></div>  
+                </div> 
+                <div class="clear"></div>       
+            </div>
+
+            <div class="space" id="skil"></div>
+            <div class="skil">
+                <h1>Skil</h1>
+                <div class="soft">
+                    <div class="softtitle">
+                        <img src="./sozai/3pice_green.jpg" alt="パズルピース" >
+                        　使用できるソフト
+                    </div>
+                    <div class="soft1">
+                        <div class="softtitle2">クリエイティブ系</div>
+                        <hr>
+                        <div class="softtext">
+                            <li>Illustrator</li>
+                            <li>Photoshop</li>
+                            <li>Dreamweaver</li>
+                            <li>Premiere Pro</li>
+                            <li>Adobe After Effects</li>
+
+                        </div>
+                    </div>
+                    <div class="soft2">
+                        <div class="softtitle2">Office系</div>
+                        <hr>
+                        <div class="softtext">
+                            <li>Word</li>
+                            <li>Excel</li>
+                            <li>PowerPoint</li>
+                            <li>Access</li>
+                        </div>
+                    </div>
+                    <div class="soft1">
+                        <div class="softtitle2">その他</div>
+                        <hr>
+                        <div class="softtext">
+                            <li>Auto-CAD</li>
+                            <li>Jw-cad</li>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                 
+                    <div class="clear"></div> 
+                    <div class="softtitle">
+                        <img src="./sozai/3pice_green.jpg" alt="パズルピース" >
+                        　資格・検定
+                    </div>
+                    <div class="soft1">
+                        <div class="softtitle2">情報系</div>
+                        <hr>
+                        <div class="softtext2">
+                            <li>情報技術検定試験 2級</li>
+                            <li>シスアド技術者能力認定試験 2,3級</li>
+                            <li>初級システムアドミニストレーター試験</li>
+                            <li>CAD利用技術者試験 2級</li>
+                        </div>
+                    </div>
+                    <div class="soft2">
+                        <div class="softtitle2">Office系</div>
+                        <hr>
+                        <div class="softtext2">
+                            <li>日本語文章処理技能検定試験 3級</li>
+                            <li>Excel表計算処理技能認定試験 3級</li>
+                            <li>文章デザイン検定試験 1級</li>
+                            <li>情報処理技能検定試験 2級 データベース</li>
+                        </div>
+                    </div>
+                    <div class="soft1">
+                        <div class="softtitle2">クリエイティブ系</div>
+                        <hr>
+                        <div class="softtext2">
+                            <li>ホームページ作成検定 1級</li>
+                            <li>CGクリエイター検定ディジタル映像部門 3級</li>
+                            <li>色彩検定 3級色彩コーディネーター</li>
+                            <li>カラーコーディネーター検定試験 3級</li>
+                            <li>洋裁技術認定試験 初級</li>
+                            <li>パターンメーキング技術検定 3級</li>
+                        </div>
+                    </div>
+                    <div class="soft2">
+                        <div class="softtitle2">その他</div>
+                        <hr>
+                        <div class="softtext2">
+                            <li>文部科学省認定硬筆書写技能検定試験 4級</li>
+                            <li>文部科学省認定毛筆書写技能検定試験 4級</li>
+                            <li>国際算数・数学能力検定試験 4級</li>
+                            <li>日本漢字能力検定 2級</li>
+                            <li>リスニング英語検定試験 3級</li>
+                            <li>計算技術検定試験 2級</li>
+                            <li>料理検定 3級</li>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div> 
+                
+        </div>
+        <div class="clear"></div> 
+        
+        <div class="space" id="abutosaite"></div>
+        <div class="work">
+            <h1>Work</h1>
+            <div class="work1">
+                <img src="./sozai/zakkaten3.jpg" alt="雑貨店・DMハガキ">
+                <div class="worktitle2">雑貨店・DMハガキ</div>
+                <hr>
+                <div class="worktext">
+                    架空の雑貨店「布雑貨が集う場所・ちいさなつぼみ」のDMハガキを制作しました。
+
+                </div>
+            </div>
+            <div class="work2">
+                <img src="./sozai/meishi2.jpg" alt="雑貨店・名刺">
+                <div class="softtitle2">雑貨店・名刺</div>
+                <hr>
+                <div class="worktext">
+                    架空の雑貨店「布雑貨が集う場所・ちいさなつぼみ」店長の名刺を制作しました。
+                    雑貨店のDMハガキとデザインをリンクさせ、統一感を出しました。
+                </div>
+            </div>
+            <div class="work1">
+                <img src="./sozai/cupcake.jpg" alt="カップケーキ専門店・DMハガキ">
+                <div class="worktitle2">カップケーキ専門店・DMハガキ</div>
+                <hr>
+                <div class="worktext">
+                    架空のカップケーキ専門店「モコモコ」のバレンタインフェアのDMハガキを制作しました。
+                </div>
+            </div>
+            <div class="work2">
+                <img src="./sozai/saite.jpg" alt="ポートフォリオサイト">
+                <div class="worktitle2">ポートフォリオサイト</div>
+                <hr>
+                <div class="worktext">
+                    自身の経歴やスキル、制作物をまとめたポートフォリオサイトを制作しました。
+                </div>
+            </div>
+        </div>
+
+        <div class="space"></div>
+        <div class="contact">
+            <h1>Contact</h1>
+            <p class="text1"  id="contact">
+                ご覧いただきありがとうございました。<br>
+                下記のメールアドレスにお気軽にご連絡ください。<br><br>
+                kumakichidayo07@yahoo.co.jp
+            </p>    
+            <div class="clear"></div>
+        </div>
+
+        <div class="footer">
+            <p class="copyright">@2025 RisaTajima</p>
+        </div>
+        <div class="clear"></div> 
+
+    </body>
+</html>
