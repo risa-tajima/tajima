@@ -20,7 +20,7 @@
         width: 100%;
     }
     .header-list li{
-        font-size: 12px;
+        font-size: 16px;
     }
     .header-logo img{
         width:90%;
@@ -29,6 +29,15 @@
     }
     .photo img{
         margin: 0 auto;
+        
+    }
+    .work1 img{
+        padding-left: 10px;
+        
+    }
+    .work2 img{
+        padding-left: 10px;
+       
     }
     
 }
@@ -74,14 +83,19 @@
         padding: 5px ;
     }
     .work1 img{
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
     }
     .work2 img{
-        width: 75%;
-        height: 75%;
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
     }
-    .softtext,.worktext{
+    .softtext{
+        height: 150px;
+    }
+    .worktext{
         height:210px;
     }
     .header-list li{
@@ -92,3 +106,17 @@
         margin: 0 auto;
     }
 }
+/* 画面サイズが999px以下の時はPC用メニューは非表示 */
+@media screen and (max-width: 1000px) {
+    .pc-menu {
+      display: none;
+    }
+  }
+  /* 画面サイズが1000px以上の時はスマホ用メニューは非表示 */
+  @media screen and (min-width: 999px) {
+    .sp-menu {
+      display: none;
+    }
+  }
+  
+  
