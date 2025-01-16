@@ -39,6 +39,36 @@
         padding-left: 10px;
        
     }
+    .workpage{
+        display: flex;
+        margin: 0 auto;
+        width:90%;
+
+    }
+    .workimg2{
+        display: flex;
+        margin: 0 auto;
+        
+      
+    }  
+    .workpage1 hr{
+        height:1px;
+        right:90%;
+        background-color: black;
+    }
+    .workimg2{
+        width: 500px;
+        height: 443px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .workpagetext{
+        font-size: 15px;
+        float: left;
+        width:100%;
+        height:800px;
+      }
+    
     
 }
 
@@ -114,6 +144,32 @@
     .pc-menu {
         display: none;
       }
+     .workpage{
+        display: flex;
+        margin: 0 auto;
+        width:90%;
+     }
+    .workimg2{
+        
+    }  
+    .workpage1 hr{
+        height:1px;
+        right:90%;
+        background-color: black;
+    }
+    .workimg2{
+        width: 210px;
+        height: 186px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .workpagetext{
+        font-size: 15px;
+        float: left;
+        width:100%;
+        height:900px;
+      }
+    
 }
 /* 画面サイズが999px以下の時はPC用メニューは非表示 */
 @media screen and (max-width: 1000px) {
